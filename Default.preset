@@ -24,7 +24,7 @@ DisableAdvertisingID            # EnableAdvertisingID
 DisableWebLangList              # EnableWebLangList
 DisableCortana                  # EnableCortana
 DisableErrorReporting           # EnableErrorReporting
-# SetP2PUpdateLocal             # SetP2PUpdateInternet          # SetP2PUpdateDisable
+SetP2PUpdateDisable				# SetP2PUpdateLocal             # SetP2PUpdateInternet          
 DisableDiagTrack                # EnableDiagTrack
 DisableWAPPush                  # EnableWAPPush
 # EnableClearRecentFiles        # DisableClearRecentFiles
@@ -48,7 +48,7 @@ SetCurrentNetworkPrivate        # SetCurrentNetworkPublic
 # EnableCtrldFolderAccess       # DisableCtrldFolderAccess
 # EnableCIMemoryIntegrity       # DisableCIMemoryIntegrity
 # EnableDefenderAppGuard        # DisableDefenderAppGuard
-HideAccountProtectionWarn       # ShowAccountProtectionWarn
+# HideAccountProtectionWarn       # ShowAccountProtectionWarn
 # DisableDownloadBlocking       # EnableDownloadBlocking
 DisableScriptHost               # EnableScriptHost
 EnableDotNetStrongCrypto        # DisableDotNetStrongCrypto
@@ -76,9 +76,9 @@ DisableAutorun                  # EnableAutorun
 # DisableSwapFile               # EnableSwapFile
 # DisableNTFSLastAccess         # EnableNTFSLastAccess
 # SetBIOSTimeUTC                # SetBIOSTimeLocal
-# EnableHibernation             # DisableHibernation
+DisableHibernation				# EnableHibernation             
 # DisableSleepButton            # EnableSleepButton
-# DisableSleepTimeout           # EnableSleepTimeout
+DisableSleepTimeout				# EnableSleepTimeout
 # DisableFastStartup            # EnableFastStartup
 # DisableAutoRebootOnCrash      # EnableAutoRebootOnCrash
 
@@ -86,8 +86,8 @@ DisableAutorun                  # EnableAutorun
 DisableActionCenter             # EnableActionCenter
 DisableLockScreen               # EnableLockScreen
 # DisableLockScreenRS1          # EnableLockScreenRS1
-HideNetworkFromLockScreen       # ShowNetworkOnLockScreen
-HideShutdownFromLockScreen      # ShowShutdownOnLockScreen
+# HideNetworkFromLockScreen     # ShowNetworkOnLockScreen
+# HideShutdownFromLockScreen    # ShowShutdownOnLockScreen
 # DisableAeroShake              # EnableAeroShake
 DisableStickyKeys               # EnableStickyKeys
 ShowTaskManagerDetails          # HideTaskManagerDetails
@@ -100,13 +100,13 @@ SetTaskbarCombineWhenFull       # SetTaskbarCombineNever        # SetTaskbarComb
 HideTaskbarPeopleIcon           # ShowTaskbarPeopleIcon
 ShowTrayIcons                   # HideTrayIcons
 DisableSearchAppInStore         # EnableSearchAppInStore
-DisableNewAppPrompt             # EnableNewAppPrompt
+# DisableNewAppPrompt             # EnableNewAppPrompt
 # HideRecentlyAddedApps         # ShowRecentlyAddedApps
 # HideMostUsedApps              # ShowMostUsedApps
 # SetControlPanelSmallIcons     # SetControlPanelLargeIcons     # SetControlPanelCategories
 DisableShortcutInName           # EnableShortcutInName
 # HideShortcutArrow             # ShowShortcutArrow
-SetVisualFXPerformance          # SetVisualFXAppearance
+# SetVisualFXAppearance			# SetVisualFXPerformance          
 # EnableTitleBarColor           # DisableTitleBarColor
 # EnableDarkTheme               # DisableDarkTheme
 # AddENKeyboard                 # RemoveENKeyboard
@@ -126,31 +126,31 @@ EnableNavPaneExpand             # DisableNavPaneExpand
 # HideSelectCheckboxes          # ShowSelectCheckboxes
 HideSyncNotifications           # ShowSyncNotifications
 HideRecentShortcuts             # ShowRecentShortcuts
-SetExplorerThisPC               # SetExplorerQuickAccess
+# SetExplorerThisPC             # SetExplorerQuickAccess
 HideQuickAccess                 # ShowQuickAccess
-ShowThisPCOnDesktop             # HideThisPCFromDesktop
+# ShowThisPCOnDesktop           # HideThisPCFromDesktop
 # ShowUserFolderOnDesktop       # HideUserFolderFromDesktop
 # ShowControlPanelOnDesktop     # HideControlPanelFromDesktop
-HideDesktopFromThisPC           # ShowDesktopInThisPC
+# HideDesktopFromThisPC         # ShowDesktopInThisPC
 # HideDesktopFromExplorer       # ShowDesktopInExplorer
-HideDocumentsFromThisPC         # ShowDocumentsInThisPC
+# HideDocumentsFromThisPC       # ShowDocumentsInThisPC
 # HideDocumentsFromExplorer     # ShowDocumentsInExplorer
-HideDownloadsFromThisPC         # ShowDownloadsInThisPC
+# HideDownloadsFromThisPC       # ShowDownloadsInThisPC
 # HideDownloadsFromExplorer     # ShowDownloadsInExplorer
-HideMusicFromThisPC             # ShowMusicInThisPC
+# HideMusicFromThisPC           # ShowMusicInThisPC
 # HideMusicFromExplorer         # ShowMusicInExplorer
-HidePicturesFromThisPC          # ShowPicturesInThisPC
+# HidePicturesFromThisPC        # ShowPicturesInThisPC
 # HidePicturesFromExplorer      # ShowPicturesInExplorer
-HideVideosFromThisPC            # ShowVideosInThisPC
+# HideVideosFromThisPC          # ShowVideosInThisPC
 # HideVideosFromExplorer        # ShowVideosInExplorer
-Hide3DObjectsFromThisPC         # Show3DObjectsInThisPC
+# Hide3DObjectsFromThisPC       # Show3DObjectsInThisPC
 # Hide3DObjectsFromExplorer     # Show3DObjectsInExplorer
 # HideIncludeInLibraryMenu      # ShowIncludeInLibraryMenu
 # HideGiveAccessToMenu          # ShowGiveAccessToMenu
 # HideShareMenu                 # ShowShareMenu
 # DisableThumbnails             # EnableThumbnails
-DisableThumbnailCache           # EnableThumbnailCache
-DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
+# DisableThumbnailCache         # EnableThumbnailCache
+# DisableThumbsDBOnNetwork      # EnableThumbsDBOnNetwork
 
 ### Application Tweaks ###
 DisableOneDrive                 # EnableOneDrive
@@ -167,7 +167,7 @@ DisableIEFirstRun               # EnableIEFirstRun
 # UninstallInternetExplorer     # InstallInternetExplorer
 # UninstallWorkFolders          # InstallWorkFolders
 # UninstallPowerShellV2         # InstallPowerShellV2
-# InstallLinuxSubsystem         # UninstallLinuxSubsystem
+InstallLinuxSubsystem           # UninstallLinuxSubsystem
 # InstallHyperV                 # UninstallHyperV
 # InstallNET23                  # UninstallNET23
 SetPhotoViewerAssociation       # UnsetPhotoViewerAssociation
